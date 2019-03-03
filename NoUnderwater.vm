@@ -1,0 +1,20 @@
+[BEGINVDF]
+Comment=This patch removes the underwater effects for better visibility at the price of immersion
+VDFName=.\NoUnderwater.vdf
+
+[FILES]
+; Resources (list the specific files from _work here)
+; _work\* -r
+
+; Script files
+Ninja\NoUnderwater\* -r
+
+[EXCLUDE]
+_work\Data\Scripts\* -r
+*.vm
+*.vdf
+*.bat
+
+[INCLUDE]
+
+[ENDVDF]
