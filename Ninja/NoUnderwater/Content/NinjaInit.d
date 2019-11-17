@@ -9,7 +9,7 @@ func void Ninja_NoUnderwater_Init() {
 
     var int addr; addr = MEMINT_SwitchG1G2(zCAICamera__CheckUnderWaterFX_G1, zCAICamera__CheckUnderWaterFX_G2);
 
-    if (MEM_ReadInt(addr) != ASMINT_OP_retn) {
+    if (MEM_ReadByte(addr) != ASMINT_OP_retn) {
         // Just immediately jump out of the setter function
         MemoryProtectionOverride(addr, 1);
         MEM_WriteByte(addr, ASMINT_OP_retn);
