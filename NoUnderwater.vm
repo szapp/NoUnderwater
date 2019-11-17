@@ -1,5 +1,6 @@
 [BEGINVDF]
 Comment=This patch removes the underwater effects for better visibility at the price of immersion (Gothic 1 and Gothic 2 NotR)
+BaseDir=.\
 VDFName=.\NoUnderwater.vdf
 
 [FILES]
