@@ -5,14 +5,16 @@
 [![Build](https://github.com/szapp/NoUnderwater/actions/workflows/build.yml/badge.svg)](https://github.com/szapp/NoUnderwater/actions/workflows/build.yml)
 [![GitHub release](https://img.shields.io/github/v/release/szapp/NoUnderwater.svg)](https://github.com/szapp/NoUnderwater/releases/latest)
 
-This patch removes the underwater effects for better visibility at the price of immersion (Gothic, Gothic Sequel, Gothic 2, and Gothic 2 NotR)
+This patch removes the underwater effects for better visibility at the price of immersion (Gothic, Gothic Sequel, Gothic 2, and Gothic 2 NotR). 
+
+Visual effects (blue screen blend, distortion, decreased visibility) and acoustic effects (dampening of sounds) are disabled. The patch is useful to make search and fetch quests easier under water.
 
 This is a modular modification (a.k.a. patch or add-on) that can be installed and uninstalled at any time and is virtually compatible with any modification.
 It supports <kbd>Gothic 1</kbd>, <kbd>Gothic Sequel</kbd>, <kbd>Gothic II (Classic)</kbd> and <kbd>Gothic II: NotR</kbd>.
 
 ###### Generated from [szapp/patch-template](https://github.com/szapp/patch-template).
 
-![Screenshot](https://upload.worldofplayers.de/files11/nounderwater.png)
+[![Screenshot](https://github.com/szapp/NoUnderwater/assets/20203034/f3081c89-bb88-4854-99a3-97739ebde6a6)](https://github.com/szapp/NoUnderwater/assets/20203034/c78cdccf-8645-4b77-916f-0f2d8d025c5a)
 
 ## Installation
 
@@ -20,7 +22,8 @@ It supports <kbd>Gothic 1</kbd>, <kbd>Gothic Sequel</kbd>, <kbd>Gothic II (Class
 
 2. Copy the file `NoUnderwater.vdf` to `[Gothic]\Data\`. To uninstall, remove the file again.
 
-The patch is also available in
+The patch is also available on
+- [World of Gothic](https://www.worldofgothic.de/dl/download_616.htm) | [Forum thread](https://forum.worldofplayers.de/forum/threads/1546960)
 - [Spine Mod-Manager](https://clockwork-origins.com/spine/)
 - [Steam Workshop Gothic 1](https://steamcommunity.com/sharedfiles/filedetails/?id=2787728128)
 - [Steam Workshop Gothic 2](https://steamcommunity.com/sharedfiles/filedetails/?id=2787727921)
